@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Cloud IHL!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"
+        integrity="sha512-G3jAqT2eM4MMkLMyQR5YBhvN5/Da3IG6kqgYqU9zlIH4+2a+GuMdLb5Kpxy6ItMdCfgaKlo2XFhI0dHtMJjoRw=="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" class="navbar-item">
+                    <b>My Website</b>
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="/" class="navbar-item is-active">
+                        Home
+                    </a>
+
+                    <a href="/info.html" class="navbar-item">
+                        More Information
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section has-background-light is-medium">
+        <div class="container">
+            <h1 class="title is-1">
+                Hello World
+            </h1>
+            <p class="subtitle">
+                My static HTML page hosted with <strong>Amazon S3 Buckets</strong>!
+            </p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container content">
+            <div class="columns is-vcentered">
+                <div class="column is-two-thirds">
+                    <h1>Why am I seeing this</h1>
+                    <p>If you're seeing this, it means that your S3 Bucket is working and serving the <code>index.html</code> correctly.</p>
+                    <hr>
+                    <h1>What is S3 Buckets?</h1>
+                    <p>Amazon Simple Storage Service (Amazon S3) is an object storage service that offers
+                        industry-leading
+                        scalability, data availability, security, and performance. This means customers of all sizes and
+                        industries can use it to store and protect any amount of data for a range of use cases, such as
+                        data
+                        lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT
+                        devices,
+                        and big data analytics. Amazon S3 provides easy-to-use management features so you can organize
+                        your data
+                        and configure finely-tuned access controls to meet your specific business, organizational, and
+                        compliance requirements.
+                    </p>
+                </div>
+                <div class="column has-text-right">
+                    <img src="s3.png" style="height: 10rem">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                The website content is licensed <a href="LICENSE">MIT License</a>.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "ihl-ec2-sample-site-nodejs",
+  "version": "1.0.0",
+  "description": "For use during Cloud IHL during EC2 session.\r Dynamic Sample Website Using Flask and nodeJs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NYP-AI/IHL-EC2-Sample-Site-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NYP-AI/IHL-EC2-Sample-Site-nodejs/issues"
+  },
+  "homepage": "https://github.com/NYP-AI/IHL-EC2-Sample-Site-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

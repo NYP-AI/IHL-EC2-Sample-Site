@@ -1,6 +1,7 @@
-const http = require("http")
+const express = require('express')
+const app = express()
+const port = 8080
 
-http.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'})
-    res.end('Hello World!')
-  }).listen(8080)
+app.use(express.static('Pages'))
+
+app.listen(port)
